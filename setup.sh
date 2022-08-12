@@ -5,4 +5,4 @@ git config --global user.name "Nothing"
 git config --global user.email "nothing@hi.org"         
 sudo -E apt-get -y purge azure-cli ghc* zulu* hhvm llvm* firefox google* dotnet* powershell openjdk* mysql* php* 
 sudo -E apt-get clean
-rm -rf /opt
+sudo rm -rf /opt/*
