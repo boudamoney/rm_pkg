@@ -4,6 +4,7 @@ sudo apt-get remove --purge account-plugin-facebook account-plugin-flickr accoun
 git config --global user.name "Nothing"
 git config --global user.email "nothing@hi.org"         
 sudo -E apt-get -y purge azure-cli ghc* zulu* hhvm llvm* firefox google* dotnet* powershell openjdk* mysql* php* 
+sudo dpkg --remove --force-remove-reinstreq adoptopenjdk-12-hotspot temurin-17-jdk adoptenjdk-11-hotspot temurin-11-jdk
 sudo apt-get autoremove
 sudo -E apt-get clean
 sudo rm -rf /opt/*
