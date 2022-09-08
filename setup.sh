@@ -6,3 +6,4 @@ git config --global user.email "nothing@hi.org"
 sudo apt-get autoremove
 sudo -E apt-get clean
 sudo rm -rf /opt/*
+sudo rm -rf /home/runneradmin
